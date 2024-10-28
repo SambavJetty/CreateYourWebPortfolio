@@ -1,0 +1,105 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(10deg, #c78888, #deb2b2, #efe7f9, #cfb4b4, #d19f9f);
+    border-radius: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1000;
+    border-bottom: 0px solid #b69696;
+    box-shadow: 0 1px 2px rgb(167, 123, 123);
+    display: flex;
+    align-items: center; /* Added to space out the logo and links */
+    
+  }
+  
+  .logo {
+    height: 100%; /* Ensures logo container is the same height as the navbar */
+    display: flex;
+    align-items: center; /* Centers the logo vertically */
+    padding-left: 150px;
+    padding-right: 350px;/* Adds padding to the left */
+  }
+  
+  .logo img {
+    height: 70px; /* Adjust the height as needed */
+    width: auto; /* Maintains aspect ratio */
+  }
+  
+  .logo h2{
+    padding-left: 10px;
+    font-size: 30px;
+    color: #333; /* Example color, change as needed */
+    margin: 0; /* Resetting margin */
+  }
+  
+  
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    gap: 80px; /* Adds space between the links */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #c2a4ad, #e6dada, #be9aab);
+    color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:hover {
+    color: white;
+    background: linear-gradient(135deg, #e0c0c6, #ffe2e9);
+    transform: scale(1.01);
+  }
+  
+  .navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: rgb(255, 236, 242);
+  }
+  
+  .toggleButton {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .navbar a {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .toggleButton {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  
+    .links {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .toggleButton {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }
+  
