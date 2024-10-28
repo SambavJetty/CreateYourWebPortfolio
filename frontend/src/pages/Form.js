@@ -41,7 +41,7 @@ const Form = () => {
             // Add form data to Firestore and get the document reference
             const docRef = await addDoc(dataOfUsers, formData);
             // Generate a URL using the document ID
-            const url = `https://CYP.vercel.app/portfolio/${docRef.id}`;
+            const url = `https://cywp.vercel.app/portfolio/${docRef.id}`;
 
             setShareableUrl(url); // Set the generated URL in state
         } catch (error) {
