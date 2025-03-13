@@ -20,6 +20,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/experience">Experience</Link>
         <Link to="/projects">Projects</Link>
+        <Link to="/">Resume</Link>
         
         {/* Only show "Create Your Own" button if no id is present in the URL */}
         {!id && (
