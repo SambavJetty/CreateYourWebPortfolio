@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans';
-    background: linear-gradient(135deg, #e5dfed, #eccbcb);
+    background: white;
     color: #333;
     margin: 0;
     padding: 0;
@@ -46,8 +46,8 @@ body {
 button {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(90deg, #ffe1ea, hsl(355, 42%, 80%));
-    color: rgb(0, 0, 0);
+    background: #e9d35b;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -56,8 +56,8 @@ button {
     box-shadow: 0 0 10px rgba(82, 69, 69, 0.1);
 }
 button:hover {
-    color: white;
-    background: linear-gradient(135deg, #eed8df, #ffd7e1);
+    color: black;
+    background: #e9d35b;
     transform: scale(1.01);
   }
 

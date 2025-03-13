@@ -32,9 +32,9 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2007 - 2019"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
+          
         >
           <h3 className="vertical-timeline-element-title">
             {schooling}
@@ -45,9 +45,8 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019 - 2021"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
         >
           <h3 className="vertical-timeline-element-title">
             {intermediate}
@@ -58,9 +57,8 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2021 - 2025"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
         >
           <h3 className="vertical-timeline-element-title">
             {bachelors}
@@ -71,9 +69,8 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2022 - 2023"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
         >
           <h3 className="vertical-timeline-element-title">
             {experience1}
@@ -84,9 +81,8 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2023 - 2024"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
         >
           <h3 className="vertical-timeline-element-title">
             {experience2}
@@ -97,9 +93,8 @@ function Experience({ formData, fetchUserData }) {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2024 - 2025"
-          iconStyle={{ background: "#e5dfed", color: "#c78888" }}
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
-          contentStyle={{ background: "#efe0e9", color: "#000" , borderRadius: '20px' }}
         >
           <h3 className="vertical-timeline-element-title">
             {experience3}

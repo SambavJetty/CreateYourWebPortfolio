@@ -1,10 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #c78888, #dba7a7, #cfb4b4, #f1eafa, #cfb4b4, #e3a2a2, #eba0a0);
-  }
+
   .projects{
       width: 100%;
+      background: white;
       height: 450px;
       display: flex;
       justify-content: center;
@@ -14,7 +11,7 @@ body {
     .projects .projectTitle {
       padding-top: 50px;
       text-align: center;
-      color: #1f1c1c;
+      color: #3e497a;
       font-size: 30px;
       font-weight: bolder;
     }
@@ -36,7 +33,6 @@ body {
       margin: 40px;
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
       text-align: center;
-      background: #e5c4c4;
     }
     .projectItem:hover {
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);

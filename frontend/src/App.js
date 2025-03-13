@@ -12,7 +12,7 @@ import { db } from './pages/firebase-config.js';
 
 function App() {
   const [formData, setFormData] = useState({
-    name: 'Sambav',
+    name: '',
     skills: 'Full-Stack Web Development, DSA, Cloud Computing, DBMS',
     certifications: 'AWS Cloud Practitioner, AWS Solutions Architect Associate',
     languages: 'English, Telugu, Hindi, French',
